@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    int pola,a,b,c;
+    printf("Masukkan jumlah pola =");
+    scanf("%d",&pola);
+
+    for (a=1; a<= pola; a++){
+
+
+        for(b=a;b<pola; b++){
+            printf(" ");
+        }
+        for(c=2; c<= a*2; c++){
+            printf("1");
+        }
+        printf("\n");
+    }
+
+return(0);
+
+}
